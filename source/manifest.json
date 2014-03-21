@@ -1,0 +1,21 @@
+{
+"name" : "Douban FM Lyrics",
+"version" : "1.0",
+"manifest_version" : 2,
+"description" : "豆瓣FM歌词",
+ 
+"page_action" : {
+"default_icon" : "icon-48.ico",
+"default_title" : "Douban FM"
+},
+"permissions" : ["tabs", "http://douban.fm/", "http://*.geci.me/*"],
+"content_scripts" : [{
+"matches" : ["http://douban.fm/"],
+"js" : ["doubanFM.js"],
+"runat" : "document_end"
+}],
+"icons" : {
+"48" : "icon-48.ico",
+"128" : "icon-128.ico"
+}
+}
