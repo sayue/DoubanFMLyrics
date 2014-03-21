@@ -13,8 +13,8 @@ DoubanFM.prototype.draw_lyrics = function() {
 	lyrics_div.style.zIndex = '10000';
 	lyrics_div.style.position = 'absolute';
 	lyrics_div.style.left="50px";
-	lyrics_div.style.top="0px";
-	lyrics_div.style.color="blue";
+	lyrics_div.style.top="10px";
+	lyrics_div.style.color="rgb(36, 158, 99)";
 	lyrics_div.align="center";
 	//返回歌词div
 	return lyrics_div;	
